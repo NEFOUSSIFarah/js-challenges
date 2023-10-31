@@ -13,7 +13,8 @@
  this function must do the calculation of (5 - 6) and output(return) their result (-1)
  */
 
-/* function calc(num1, num2, operator) {
+
+function calc(num1, num2, operator) {
     switch (operator) {
       case "+":
         return num1 + num2;
@@ -33,45 +34,34 @@
   
   // Example usage:
   const result = calc(5, 6, "-");
-  console.log(result); // Output will be -1
-   */
+  console.log(result)
+  
 
-  function calc(num1, num2, operator) {
-    let result;
-  
-    for (let i = 0; i < 1; i++) {
+  /* function calc(num1, num2, operator) {
+      
       if (operator === "+") {
-        result = num1 + num2;
-        break;
-      } else if (operator === "-") {
-        result = num1 - num2;
-        break;
-      } else if (operator === "*") {
-        result = num1 * num2;
-        break;
-      } else if (operator === "/") {
+        return num1 + num2;
+      } 
+      else if (operator === "-") {
+        return num1 - num2;
+      } 
+      else if (operator === "*") {
+        return num1 * num2;
+      } 
+      else if (operator === "/") {
         if (num2 === 0) {
-          result = "Division by zero is not allowed";
-        } else {
-          result = num1 / num2;
-        }
-        break;
+          return "Division by zero is not allowed";
+        } else {  return num1 / num2;      }
       } else {
-        result = "Invalid operator";
+        return "Invalid operator";
       }
-    }
-  
-    return result;
-  }
+
+    } */
+    
+
   
         
-    // Example usage:
-  const result = calc(5, 6, "-");
-  console.log(result); // Output will be -1
-  /* In this implementation, the for loop runs only once, 
-  and the if statements check the operator to determine the operation to perform. 
-  The break statements are used to exit the loop once a calculation is done.
-   */
+    
   
   
   
